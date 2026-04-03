@@ -24,7 +24,8 @@
       "Bash(vercel deploy:*)",
       "Bash(vercel login:*)",
       "Bash(GITHUB_ACTIONS=true npm run build)",
-      "Bash(vercel whoami:*)"
+      "Bash(vercel whoami:*)",
+      "mcp__825cd173-42ea-431e-abd1-75f0cabf1622__get_deployment"
     ]
   }
 }
