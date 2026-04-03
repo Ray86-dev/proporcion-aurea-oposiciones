@@ -37,7 +37,7 @@ export default function Hero() {
           <div className="relative flex justify-center">
             <div className="relative w-full max-w-lg aspect-[4/3] rounded-sm overflow-hidden shadow-xl">
               <Image
-                src="/images/Entrega en mano.png"
+                src="/images/entrega-en-mano.png"
                 alt="Los tres temarios de Proporción Áurea Oposiciones: Volumen, Fotografía y Medios Audiovisuales"
                 fill
                 className="object-cover"

@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "Proporción Áurea Oposiciones",
     images: [
       {
-        url: "/images/Entrega en mano.png",
+        url: "/images/entrega-en-mano.png",
         width: 1200,
         height: 630,
         alt: "Temarios de Proporción Áurea Oposiciones — Escuelas de Arte Canarias",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     title: "Proporción Áurea Oposiciones — Temarios OPOS Escuelas de Arte",
     description:
       "Temarios impresos para oposiciones de Escuelas de Arte en Canarias: Volumen, Fotografía y Medios Audiovisuales.",
-    images: ["/images/Entrega en mano.png"],
+    images: ["/images/entrega-en-mano.png"],
   },
   robots: {
     index: true,

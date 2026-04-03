@@ -11,7 +11,7 @@ const organizationSchema = {
     "Temarios impresos y encuadernados para oposiciones de secundaria en Escuelas de Arte (Canarias). Especialidades: Volumen, Fotografía y Medios Audiovisuales.",
   url: SITE_URL,
   logo: `${SITE_URL}/images/logo.png`,
-  image: `${SITE_URL}/images/Entrega en mano.png`,
+  image: `${SITE_URL}/images/entrega-en-mano.png`,
   telephone: `+${WHATSAPP_NUMBER}`,
   address: {
     "@type": "PostalAddress",
