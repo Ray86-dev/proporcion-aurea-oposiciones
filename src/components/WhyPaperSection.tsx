@@ -7,8 +7,8 @@ export default function WhyPaperSection() {
           <path d="M9 12l2 2 4-4" />
         </svg>
       ),
-      title: "Protección frente al plagio",
-      text: "El formato exclusivamente en papel garantiza que el contenido no se copie ni distribuya sin autorización.",
+      title: "Tu temario está protegido",
+      text: "Hemos invertido mucho tiempo y esfuerzo en cada tema. El formato papel garantiza que ese trabajo no se copie ni se distribuya sin control.",
     },
     {
       icon: (
@@ -17,8 +17,8 @@ export default function WhyPaperSection() {
           <path d="M12 6v6l4 2" />
         </svg>
       ),
-      title: "Estudio concentrado",
-      text: "Estudiar en papel elimina las distracciones digitales y mejora la retención y la comprensión profunda.",
+      title: "Estudia de verdad",
+      text: "Sin pantallas, sin notificaciones. El papel te permite concentrarte de verdad, retener mejor y conectar con lo que lees.",
     },
     {
       icon: (
@@ -28,8 +28,8 @@ export default function WhyPaperSection() {
           <path d="M9 15l2 2 4-4" />
         </svg>
       ),
-      title: "Durabilidad y anotaciones",
-      text: "Material encuadernado de calidad que puedes subrayar, anotar y consultar tantas veces como necesites.",
+      title: "Hazlo tuyo",
+      text: "Subraya, anota, dobla páginas. Un temario encuadernado con calidad que te va a acompañar durante toda la preparación.",
     },
   ];
 

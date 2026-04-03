@@ -29,9 +29,9 @@ export const temarios: Temario[] = [
     specialty: "Especialidad de Volumen",
     image: "/images/Temario Volumen.png",
     description: [
-      "Temario completo para la especialidad de Volumen del Cuerpo de Profesores de Artes Plasticas y Diseno.",
-      "Contenido actualizado segun el BOE, con todos los temas desarrollados de forma rigurosa y clara.",
-      "Impreso y encuadernado en papel de alta calidad para facilitar el estudio y la anotacion a mano.",
+      "Temario completo de la especialidad de Volumen, desarrollado tema a tema con el rigor que la oposición exige.",
+      "Actualizado según el BOE, con un enfoque claro y práctico pensado para que aproveches cada hora de estudio.",
+      "Impreso y encuadernado con cariño. Cada ejemplar que entregamos en mano va con una nota personal nuestra.",
     ],
     whatsappMessage:
       "Hola, quiero información sobre el temario de Volumen para OPOS Secundaria (Escuelas de Arte). ¿Cuál es el proceso de compra y envío?",
@@ -42,9 +42,9 @@ export const temarios: Temario[] = [
     specialty: "Especialidad de Fotografía",
     image: "/images/Temario Fotografía.png",
     description: [
-      "Temario completo para la especialidad de Fotografía del Cuerpo de Profesores de Artes Plasticas y Diseno.",
-      "Todos los temas desarrollados con rigor academico y enfoque practico orientado a la oposicion.",
-      "Formato impreso y encuadernado, sin version digital, para proteger el contenido y facilitar el estudio concentrado.",
+      "Todos los temas de Fotografía desarrollados con rigor académico y un enfoque práctico orientado a la oposición.",
+      "Hemos cuidado cada detalle para que tengas un material claro, completo y que de verdad te ayude a prepararte.",
+      "Solo en papel, porque creemos que estudiar sin pantallas marca la diferencia. Y sí, también va con su nota y confeti.",
     ],
     whatsappMessage:
       "Hola, quiero información sobre el temario de Fotografía para OPOS Secundaria (Escuelas de Arte). ¿Cuál es el proceso de compra y envío?",
@@ -55,9 +55,9 @@ export const temarios: Temario[] = [
     specialty: "Especialidad de Medios Audiovisuales",
     image: "/images/Temario Medios Audiovisuales.png",
     description: [
-      "Temario completo para la especialidad de Medios Audiovisuales del Cuerpo de Profesores de Artes Plasticas y Diseno.",
-      "Desarrollo exhaustivo de todos los temas segun la normativa vigente, ideal para la preparacion de oposiciones.",
-      "Edicion impresa y encuadernada con materiales de calidad. No se ofrece version digital para minimizar el plagio.",
+      "Temario completo de Medios Audiovisuales con todos los temas desarrollados según la normativa vigente.",
+      "Pensado para que cada sesión de estudio cuente: contenido exhaustivo, bien estructurado y fácil de seguir.",
+      "Impreso y encuadernado con la misma dedicación que ponemos en cada entrega. Sin versión digital, con mucho corazón.",
     ],
     whatsappMessage:
       "Hola, quiero información sobre el temario de Medios Audiovisuales para OPOS Secundaria (Escuelas de Arte). ¿Cuál es el proceso de compra y envío?",
@@ -65,7 +65,7 @@ export const temarios: Temario[] = [
 ];
 
 export const GENERIC_WHATSAPP_MESSAGE =
-  "Hola Proporción Áurea, quiero información sobre los temarios de OPOS de Escuelas de Arte.";
+  "¡Hola, Rayco y Verónica! Me interesa información sobre vuestros temarios de OPOS de Escuelas de Arte.";
 
 export function getWhatsAppUrl(message: string): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -75,21 +75,21 @@ export const faqs = [
   {
     question: "¿Cómo se realiza el pago?",
     answer:
-      "El pago se concreta directamente por WhatsApp. Contacta con nosotros, te indicaremos las opciones disponibles (transferencia, Bizum, etc.) y coordinaremos la entrega.",
+      "Muy fácil: escríbenos por WhatsApp y te lo explicamos todo. Aceptamos transferencia, Bizum y coordinamos contigo la entrega de forma personal.",
   },
   {
     question: "¿Hacéis envíos a toda Canarias?",
     answer:
-      "Sí, realizamos envíos a todas las islas de Canarias. Los gastos de envío se calculan según destino. La entrega en mano es gratuita en la zona metropolitana de La Laguna – Santa Cruz de Tenerife.",
+      "¡Por supuesto! Enviamos a todas las islas. Si estás en la zona de La Laguna – Santa Cruz, la entrega en mano es gratuita y viene con una sorpresita.",
   },
   {
     question: "¿Hay versión digital?",
     answer:
-      "No. Nuestros temarios solo se venden en formato impreso y encuadernado. Esta decisión protege el contenido frente al plagio y fomenta un estudio más concentrado y efectivo.",
+      "No, y es una decisión consciente. Queremos proteger el trabajo que hay detrás de cada tema y, además, creemos firmemente que estudiar en papel te ayuda a concentrarte mejor.",
   },
   {
     question: "¿Cuánto tarda la entrega?",
     answer:
-      "La entrega en mano en la zona metropolitana de La Laguna – Santa Cruz se realiza en 1-2 días hábiles tras confirmar el pago. Los envíos al resto de Canarias suelen tardar entre 3-5 días hábiles.",
+      "En mano, normalmente en 1-2 días tras confirmar el pago. Para el resto de Canarias, entre 3-5 días hábiles. Te avisamos en todo momento para que estés tranquilo/a.",
   },
 ];

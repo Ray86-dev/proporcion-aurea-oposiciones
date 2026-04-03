@@ -24,24 +24,26 @@ export default function AboutSection() {
               className="text-2xl sm:text-3xl font-bold text-charcoal mb-6"
               style={{ fontFamily: "var(--font-serif)" }}
             >
-              Sobre Proporción Áurea Oposiciones
+              Quiénes somos
             </h2>
 
             <div className="space-y-4 text-sm text-charcoal/70 leading-relaxed">
               <p>
-                Estamos especializados en la preparación de oposiciones para el
-                Cuerpo de Profesores de Artes Plásticas y Diseño, con temarios
-                específicos para las <strong className="text-charcoal">Escuelas de Arte</strong> de Canarias.
+                Somos <strong className="text-charcoal">Rayco y Verónica</strong>.
+                Sabemos lo que es preparar unas oposiciones: las horas de estudio,
+                la incertidumbre y la ilusión. Por eso creamos estos temarios con
+                todo el rigor y el cariño que nos hubiera gustado encontrar.
               </p>
               <p>
-                Ubicados en la zona metropolitana de{" "}
-                <strong className="text-charcoal">La Laguna – Santa Cruz de Tenerife</strong>,
-                ofrecemos entrega en mano gratuita y acompañamiento al opositor:
-                no solo vendemos el libro, te ayudamos en el camino.
+                Estamos en{" "}
+                <strong className="text-charcoal">La Laguna – Santa Cruz de Tenerife</strong> y
+                cada temario que entregamos en mano va acompañado de una nota
+                escrita por nosotros, porque detrás de cada pedido hay una persona
+                con un sueño que merece todo nuestro apoyo.
               </p>
               <p>
-                Nuestro compromiso es ofrecer un material riguroso, actualizado
-                y con la calidad que merece tu preparación.
+                No solo vendemos un libro: te acompañamos en el camino. Todo
+                esfuerzo, constancia y talento darán sus frutos.
               </p>
             </div>
           </div>

@@ -16,11 +16,12 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-lg text-charcoal/80 mb-4 max-w-xl mx-auto lg:mx-0">
-              Ediciones impresas, encuadernadas y sin versión digital para
-              minimizar el plagio.
+              Somos Rayco y Verónica. Hemos creado los temarios que nos hubiera
+              gustado tener: completos, rigurosos y hechos con cariño.
             </p>
 
             <p className="text-sm text-charcoal/60 mb-8 max-w-xl mx-auto lg:mx-0">
+              Impresos y encuadernados, sin versión digital.
               Entrega en mano en La Laguna – Santa Cruz o envío a toda Canarias.
             </p>
 

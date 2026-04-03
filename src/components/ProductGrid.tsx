@@ -20,8 +20,8 @@ export default function ProductGrid() {
           >
             Nuestros Temarios
           </h2>
-          <p className="text-charcoal/60 mt-3 max-w-md mx-auto text-sm">
-            Tres especialidades del Cuerpo de Profesores de Artes Plásticas y Diseño
+          <p className="text-charcoal/60 mt-3 max-w-lg mx-auto text-sm">
+            Tres especialidades de Artes Plásticas y Diseño, hechas con rigor académico y mucho cariño
           </p>
         </div>
 
