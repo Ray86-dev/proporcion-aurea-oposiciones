@@ -14,12 +14,12 @@ export default function Footer() {
             height={64}
             className="h-16 w-16 object-contain brightness-0 invert opacity-60"
           />
-          <p
+          <h2
             className="text-xl font-semibold text-white"
             style={{ fontFamily: "var(--font-serif)" }}
           >
             Proporción Áurea Oposiciones
-          </p>
+          </h2>
 
           {/* Ubicacion */}
           <p className="text-sm text-white/50">

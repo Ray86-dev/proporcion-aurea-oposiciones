@@ -6,10 +6,12 @@ import AboutSection from "@/components/AboutSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
+import StructuredData from "@/components/StructuredData";
 
 export default function Home() {
   return (
     <>
+      <StructuredData />
       <Header />
       <main>
         <Hero />

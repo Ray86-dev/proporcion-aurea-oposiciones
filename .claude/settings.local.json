@@ -13,7 +13,12 @@
       "Bash(rm -rf node_modules)",
       "Bash(npm install:*)",
       "Bash(gh auth:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(gh api:*)",
+      "Bash(gh run:*)",
+      "WebFetch(domain:ray86-dev.github.io)",
+      "WebSearch",
+      "Bash(ls \"C:/Users/rayco/Proporcion Aurea Oposiciones/public/\"*.svg)"
     ]
   }
 }

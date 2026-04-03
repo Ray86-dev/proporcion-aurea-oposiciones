@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ray86-dev.github.io/proporcion-aurea-oposiciones/sitemap.xml
