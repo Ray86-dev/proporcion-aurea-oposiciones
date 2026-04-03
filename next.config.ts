@@ -4,7 +4,7 @@ const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 const basePath = isGitHubPages ? "/proporcion-aurea-oposiciones" : "";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  ...(isGitHubPages && { output: "export" }),
   basePath,
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
