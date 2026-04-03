@@ -2,7 +2,7 @@
 
 import { useEffect, useCallback } from "react";
 import Image from "next/image";
-import { Temario, getWhatsAppUrl } from "@/lib/data";
+import { Temario, WHATSAPP_COMMUNITY_URL } from "@/lib/data";
 
 type Props = {
   temario: Temario | null;
@@ -90,7 +90,7 @@ export default function ProductModal({ temario, onClose }: Props) {
           {/* Botones */}
           <div className="flex gap-3">
             <a
-              href={getWhatsAppUrl(temario.whatsappMessage)}
+              href={WHATSAPP_COMMUNITY_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 bg-gold hover:bg-gold-dark text-white font-medium py-2.5 px-4 rounded-sm text-center transition-colors text-xs uppercase tracking-widest flex items-center justify-center gap-2"

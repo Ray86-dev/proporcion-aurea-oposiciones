@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Temario, getWhatsAppUrl, WHATSAPP_COMMUNITY_URL } from "@/lib/data";
+import { Temario, WHATSAPP_COMMUNITY_URL } from "@/lib/data";
 
 type Props = {
   temario: Temario;
@@ -67,7 +67,7 @@ export default function ProductCard({ temario, onOpenModal, className = "" }: Pr
 
       {/* Icono WhatsApp en esquina inferior derecha */}
       <a
-        href={getWhatsAppUrl(temario.whatsappMessage)}
+        href={WHATSAPP_COMMUNITY_URL}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`Contactar por WhatsApp sobre temario de ${temario.title}`}
