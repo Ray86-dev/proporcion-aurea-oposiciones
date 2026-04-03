@@ -2,10 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
+  basePath: "/proporcion-aurea-oposiciones",
   images: {
     unoptimized: true,
   },
-  // basePath se configura automaticamente via GitHub Actions
 };
 
 export default nextConfig;
