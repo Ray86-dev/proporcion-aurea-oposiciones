@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
+      "Read(//c/Users/rayco/**)",
+      "Bash(npx create-next-app@latest proporcion-aurea-temp --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
+      "Bash(cp -r \"C:/Users/rayco/proporcion-aurea-temp/\"* \"C:/Users/rayco/proporcion-aurea-temp/\".* \"C:/Users/rayco/Proporcion Aurea Oposiciones/\")",
+      "Bash(rm -rf \"C:/Users/rayco/proporcion-aurea-temp\")",
+      "Bash(cp \"C:/Users/rayco/proporcion-aurea-temp/package.json\" \"C:/Users/rayco/proporcion-aurea-temp/package-lock.json\" \"C:/Users/rayco/proporcion-aurea-temp/postcss.config.mjs\" \"C:/Users/rayco/proporcion-aurea-temp/tsconfig.json\" \"C:/Users/rayco/Proporcion Aurea Oposiciones/\")",
+      "Bash(cp -r \"C:/Users/rayco/proporcion-aurea-temp/src\" \"C:/Users/rayco/proporcion-aurea-temp/public\" \"C:/Users/rayco/Proporcion Aurea Oposiciones/\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm run:*)",
+      "Bash(rm -rf node_modules)",
+      "Bash(npm install:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)"
+    ]
+  }
+}
