@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { INSTAGRAM_URL, WHATSAPP_COMMUNITY_URL, EMAIL } from "@/lib/data";
+import { img } from "@/lib/basePath";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,7 @@ export default function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/images/logo-color.png"
+            src={img("/images/logo-color.png")}
             alt="Proporción Áurea Oposiciones"
             width={48}
             height={48}

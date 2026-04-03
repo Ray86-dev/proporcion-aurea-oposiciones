@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { img } from "@/lib/basePath";
 
 export default function AboutSection() {
   return (
@@ -8,7 +9,7 @@ export default function AboutSection() {
           {/* Imagen */}
           <div className="relative aspect-[4/3] rounded-sm overflow-hidden shadow-lg order-2 lg:order-1">
             <Image
-              src="/images/entrega-en-mano.png"
+              src={img("/images/entrega-en-mano.png")}
               alt="Entrega en mano de un temario de Proporción Áurea Oposiciones"
               fill
               className="object-cover"

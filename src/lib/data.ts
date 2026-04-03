@@ -1,3 +1,5 @@
+import { img } from "./basePath";
+
 // ============================================================
 // CONFIGURACION: Cambia estos valores con tus datos reales
 // ============================================================
@@ -26,7 +28,7 @@ export const temarios: Temario[] = [
     id: "volumen",
     title: "Volumen",
     specialty: "Especialidad de Volumen",
-    image: "/images/temario-volumen.png",
+    image: img("/images/temario-volumen.png"),
     description: [
       "Temario completo de la especialidad de Volumen, desarrollado tema a tema con el rigor que la oposición exige.",
       "Actualizado según el BOE, con un enfoque claro y práctico pensado para que aproveches cada hora de estudio.",
@@ -39,7 +41,7 @@ export const temarios: Temario[] = [
     id: "fotografia",
     title: "Fotografía",
     specialty: "Especialidad de Fotografía",
-    image: "/images/temario-fotografia.png",
+    image: img("/images/temario-fotografia.png"),
     description: [
       "Todos los temas de Fotografía desarrollados con rigor académico y un enfoque práctico orientado a la oposición.",
       "Hemos cuidado cada detalle para que tengas un material claro, completo y que de verdad te ayude a prepararte.",
@@ -52,7 +54,7 @@ export const temarios: Temario[] = [
     id: "audiovisuales",
     title: "Medios Audiovisuales",
     specialty: "Especialidad de Medios Audiovisuales",
-    image: "/images/temario-audiovisuales.png",
+    image: img("/images/temario-audiovisuales.png"),
     description: [
       "Temario completo de Medios Audiovisuales con todos los temas desarrollados según la normativa vigente.",
       "Pensado para que cada sesión de estudio cuente: contenido exhaustivo, bien estructurado y fácil de seguir.",

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { INSTAGRAM_URL, WHATSAPP_COMMUNITY_URL, EMAIL } from "@/lib/data";
+import { img } from "@/lib/basePath";
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col items-center text-center gap-6">
           {/* Logo */}
           <Image
-            src="/images/logo-color.png"
+            src={img("/images/logo-color.png")}
             alt="Proporción Áurea Oposiciones"
             width={80}
             height={80}

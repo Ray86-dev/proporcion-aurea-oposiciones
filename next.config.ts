@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+const basePath = isGitHubPages ? "/proporcion-aurea-oposiciones" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd ? "/proporcion-aurea-oposiciones" : "",
+  basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   images: {
     unoptimized: true,
   },

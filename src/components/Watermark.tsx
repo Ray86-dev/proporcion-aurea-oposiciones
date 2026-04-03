@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { img } from "@/lib/basePath";
 
 export default function Watermark() {
   return (
@@ -8,7 +9,7 @@ export default function Watermark() {
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] sm:w-[800px] sm:h-[800px] lg:w-[1000px] lg:h-[1000px] opacity-[0.03]">
         <Image
-          src="/images/logo-color.png"
+          src={img("/images/logo-color.png")}
           alt=""
           fill
           className="object-contain"

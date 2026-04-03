@@ -18,7 +18,12 @@
       "Bash(gh run:*)",
       "WebFetch(domain:ray86-dev.github.io)",
       "WebSearch",
-      "Bash(ls \"C:/Users/rayco/Proporcion Aurea Oposiciones/public/\"*.svg)"
+      "Bash(ls \"C:/Users/rayco/Proporcion Aurea Oposiciones/public/\"*.svg)",
+      "mcp__825cd173-42ea-431e-abd1-75f0cabf1622__deploy_to_vercel",
+      "Bash(npm list:*)",
+      "Bash(vercel deploy:*)",
+      "Bash(vercel login:*)",
+      "Bash(GITHUB_ACTIONS=true npm run build)"
     ]
   }
 }
