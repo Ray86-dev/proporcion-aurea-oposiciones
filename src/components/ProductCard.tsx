@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Temario, getWhatsAppUrl } from "@/lib/data";
+import { Temario, getWhatsAppUrl, WHATSAPP_COMMUNITY_URL } from "@/lib/data";
 
 type Props = {
   temario: Temario;

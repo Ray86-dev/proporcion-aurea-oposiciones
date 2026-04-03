@@ -1,4 +1,4 @@
-import { temarios, faqs, WHATSAPP_NUMBER, INSTAGRAM_URL } from "@/lib/data";
+import { temarios, faqs, WHATSAPP_NUMBER, INSTAGRAM_URL, EMAIL } from "@/lib/data";
 
 const SITE_URL = "https://ray86-dev.github.io/proporcion-aurea-oposiciones";
 
@@ -28,6 +28,7 @@ const organizationSchema = {
     "@type": "Place",
     name: "Canarias, España",
   },
+  email: EMAIL,
   sameAs: [INSTAGRAM_URL],
   priceRange: "€€",
 };

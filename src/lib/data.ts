@@ -6,12 +6,11 @@
 // Ejemplo: 34612345678
 export const WHATSAPP_NUMBER = "34XXXXXXXXX"; // <-- PON TU NUMERO AQUI
 
-// Tu perfil de Instagram (sin @)
-export const INSTAGRAM_HANDLE = "proporcionaurea.oposiciones"; // <-- PON TU HANDLE AQUI
-
 // ============================================================
 
-export const INSTAGRAM_URL = `https://www.instagram.com/${INSTAGRAM_HANDLE}`;
+export const INSTAGRAM_URL = "https://www.instagram.com/aurea.opos";
+export const WHATSAPP_COMMUNITY_URL = "https://chat.whatsapp.com/BNxWSxkVp0ZDXSkrHBvoOe";
+export const EMAIL = "aurea.opos@gmail.com";
 
 export type Temario = {
   id: string;

@@ -1,11 +1,11 @@
 "use client";
 
-import { getWhatsAppUrl, GENERIC_WHATSAPP_MESSAGE } from "@/lib/data";
+import { WHATSAPP_COMMUNITY_URL } from "@/lib/data";
 
 export default function WhatsAppFloatingButton() {
   return (
     <a
-      href={getWhatsAppUrl(GENERIC_WHATSAPP_MESSAGE)}
+      href={WHATSAPP_COMMUNITY_URL}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
