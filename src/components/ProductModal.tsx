@@ -54,7 +54,7 @@ export default function ProductModal({ temario, onClose }: Props) {
         </button>
 
         {/* Imagen */}
-        <div className="relative aspect-[4/5] overflow-hidden">
+        <div className="relative h-40 sm:h-48 overflow-hidden">
           <Image
             src={temario.image}
             alt={`Temario de ${temario.title}`}
@@ -62,7 +62,7 @@ export default function ProductModal({ temario, onClose }: Props) {
             className="object-cover"
             sizes="(max-width: 512px) 100vw, 512px"
           />
-          <div className="absolute inset-3 border border-gold/30 pointer-events-none" />
+          <div className="absolute inset-2 border border-gold/30 pointer-events-none" />
         </div>
 
         {/* Contenido */}

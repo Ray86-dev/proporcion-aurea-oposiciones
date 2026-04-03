@@ -58,8 +58,7 @@ export default function ProductCard({ temario, onOpenModal, className = "" }: Pr
         </p>
 
         <p className="text-xs text-charcoal/50 mb-3">
-          Entrega en mano gratis en La Laguna – Santa Cruz (con sorpresita incluida)
-        </p>
+          Entrega en mano gratis en La Laguna – Santa Cruz        </p>
 
         <p className="text-xs text-charcoal/40 italic">
           Solo en papel. Impreso, encuadernado y hecho con cariño.

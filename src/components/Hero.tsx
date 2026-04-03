@@ -17,7 +17,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-base sm:text-lg text-charcoal/80 mb-4 max-w-xl mx-auto lg:mx-0">
-              Somos Rayco y Verónica. Hemos creado los temarios que nos hubiera
+              Somos Verónica y Rayco. Hemos creado los temarios que nos hubiera
               gustado tener: completos, rigurosos y hechos con cariño.
             </p>
 

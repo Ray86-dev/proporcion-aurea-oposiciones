@@ -23,7 +23,8 @@
       "Bash(npm list:*)",
       "Bash(vercel deploy:*)",
       "Bash(vercel login:*)",
-      "Bash(GITHUB_ACTIONS=true npm run build)"
+      "Bash(GITHUB_ACTIONS=true npm run build)",
+      "Bash(vercel whoami:*)"
     ]
   }
 }
